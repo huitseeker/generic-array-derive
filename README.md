@@ -75,8 +75,8 @@ Installation
 Add the following line to the dependencies of your `Cargo.toml`:
 
 ```toml
-generic_bytes = "0.2.0"
-generic_bytes_derive = "0.2.0"
+generic_bytes = "0.2.1"
+generic_bytes_derive = "0.2.1"
 ```
 
 Contributors

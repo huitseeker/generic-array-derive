@@ -5,7 +5,7 @@
 
 [package]
 name = "generic-bytes-derive"
-version = "0.2.0"
+version = "0.2.1"
 repository = "https://github.com/huitseeker/generic-array-derive"
 keywords = ["bytes", "generic", "macro"]
 description = "A macro for derivation of SizedBytes, a trait for conversion to and from an array of bytes with a type-level size"
@@ -24,5 +24,5 @@ proc-macro2 = "1.0.36"
 
 [dev-dependencies]
 anyhow = "1.0.52"
-generic-bytes = { version = "0.2.0", path = "../generic-bytes" }
+generic-bytes = { version = "0.2.1", path = "../generic-bytes" }
 generic-array = "0.14.4"
