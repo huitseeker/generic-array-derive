@@ -6,13 +6,13 @@
 [package]
 name = "generic-bytes"
 version = "0.1.0"
-repository = "https://github.com/novifinancial/generic-array-derive"
+repository = "https://github.com/huitseeker/generic-array-derive"
 keywords = ["bytes", "generic", "macro"]
 description = "A derivable trait for conversion to and from an array of bytes with a type-level size"
-authors = ["François Garillot <fga@fb.com>"]
+authors = ["François Garillot <francois@garillot.net>"]
 license = "MIT"
 edition = "2018"
 readme = "../README.md"
 
 [dependencies]
-generic-array = "0.14.3"
+generic-array = "0.14.4"

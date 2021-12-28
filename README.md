@@ -1,4 +1,4 @@
-##  SizedBytes ![Build Status](https://github.com/novifinancial/generic-array-derive/workflows/Rust%20CI/badge.svg)
+##  SizedBytes ![Build Status](https://github.com/huitseeker/generic-array-derive/workflows/Rust%20CI/badge.svg)
 
 SizedBytes is a trait that embodies conversion to and from an array of bytes
 with a type-level length. It leverages the

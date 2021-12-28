@@ -6,10 +6,10 @@
 [package]
 name = "generic-bytes-derive"
 version = "0.1.0"
-repository = "https://github.com/novifinancial/generic-array-derive"
+repository = "https://github.com/huitseeker/generic-array-derive"
 keywords = ["bytes", "generic", "macro"]
 description = "A macro for derivation of SizedBytes, a trait for conversion to and from an array of bytes with a type-level size"
-authors = ["François Garillot <fga@fb.com>"]
+authors = ["François Garillot <rancois@garillot.netm>"]
 license = "MIT"
 edition = "2018"
 readme = "../README.md"
@@ -18,11 +18,11 @@ readme = "../README.md"
 proc-macro = true
 
 [dependencies]
-syn = { version = "1.0.34", features = ["derive"] }
-quote = "1.0.7"
-proc-macro2 = "1.0.18"
+syn = { version = "1.0.84", features = ["derive"] }
+quote = "1.0.13"
+proc-macro2 = "1.0.36"
 
 [dev-dependencies]
-anyhow = "1.0"
+anyhow = "1.0.52"
 generic-bytes = { version = "0.1.0", path = "../generic-bytes" }
-generic-array = "0.14.3"
+generic-array = "0.14.4"
