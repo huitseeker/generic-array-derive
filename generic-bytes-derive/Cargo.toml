@@ -18,11 +18,11 @@ readme = "../README.md"
 proc-macro = true
 
 [dependencies]
-syn = { version = "1.0.84", features = ["derive"] }
-quote = "1.0.13"
-proc-macro2 = "1.0.36"
+syn = { version = "1.0.100", features = ["derive"] }
+quote = "1.0.21"
+proc-macro2 = "1.0.43"
 
 [dev-dependencies]
-anyhow = "1.0.52"
+anyhow = "1.0.65"
 generic-bytes = { version = "0.2.1", path = "../generic-bytes" }
-generic-array = "0.14.4"
+generic-array = "0.14.6"
