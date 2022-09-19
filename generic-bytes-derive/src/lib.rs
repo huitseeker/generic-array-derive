@@ -102,7 +102,7 @@ fn add_trait_bounds(
         return Ok(());
     }
 
-    let types = collect_types(&data)?;
+    let types = collect_types(data)?;
     if !types.is_empty() {
         let where_clause = generics.make_where_clause();
 
