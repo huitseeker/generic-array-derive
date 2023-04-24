@@ -39,7 +39,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Check semver
-        uses: obi1kenobi/cargo-semver-checks-action@v1
+        uses: obi1kenobi/cargo-semver-checks-action@v2
         with:
           crate-name: ${{ matrix.package }}
           version-tag-prefix: ${{ matrix.package }}-v
