@@ -13,6 +13,7 @@ authors = ["François Garillot <francois@garillot.net>"]
 license = "MIT"
 edition = "2018"
 readme = "../README.md"
+rust-version = "1.63.0"
 
 [dependencies]
 generic-array = "0.14.6"
