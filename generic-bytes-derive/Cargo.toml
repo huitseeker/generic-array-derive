@@ -5,7 +5,7 @@
 
 [package]
 name = "generic-bytes-derive"
-version = "0.2.2"
+version = "0.2.3"
 repository = "https://github.com/huitseeker/generic-array-derive"
 keywords = ["bytes", "generic", "macro"]
 description = "A macro for derivation of SizedBytes, a trait for conversion to and from an array of bytes with a type-level size"
