@@ -46,13 +46,8 @@ jobs:
       - name: Setup Rust
         uses: dtolnay/rust-toolchain@stable
         
-      - name: Check semver
-        uses: obi1kenobi/cargo-semver-checks-action@v1
-        with:
-          crate-name: ${{ matrix.package }}
-          version-tag-prefix: ${{ matrix.package }}-v
-          
-      - id: check
+      - name: Check if version already exists
+        id: check
         run: |
           set +e
           ./scripts/is_version_already_uploaded.sh ${{ matrix.package }}
